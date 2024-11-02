@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip">
+
+    <test name="E2E Test of EAApp">
+        <classes>
+            <class name="com.example.demo.SpringTestNGTest"></class>
+        </classes>
+    </test>
+</suite>
+        
