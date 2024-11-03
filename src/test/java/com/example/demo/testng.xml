@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" verbose="10" configfailurepolicy="skip">
+<suite name="Suite" verbose="10" configfailurepolicy="skip" parallel="tests">
 
     <test name="E2E Test of EAApp">
         <classes>
-            <class name="com.example.demo.SpringTestNGTest"></class>
+            <class name="com.example.demo.runner.TestRunner"></class>
         </classes>
     </test>
 </suite>
