@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/java/com/example/demo/features"},
-        plugin = {"json:target/cucumber.json", "pretty"},
+        plugin = {"json:target/cucumber.json", "pretty", "html:target/index.html"},
         glue = "com.example.demo.steps"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
