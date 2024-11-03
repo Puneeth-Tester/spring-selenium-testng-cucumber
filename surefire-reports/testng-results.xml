@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-03T09:42:03 UTC" name="Suite" finished-at="2024-11-03T09:42:12 UTC" duration-ms="9243">
+  <suite started-at="2024-11-03T09:43:07 UTC" name="Suite" finished-at="2024-11-03T09:43:28 UTC" duration-ms="20892">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-03T09:42:03 UTC" name="E2E Test of EAApp" finished-at="2024-11-03T09:42:12 UTC" duration-ms="9243">
+    <test started-at="2024-11-03T09:43:07 UTC" name="E2E Test of EAApp" finished-at="2024-11-03T09:43:28 UTC" duration-ms="20892">
       <class name="com.example.demo.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:42:03 UTC" name="setUpClass" finished-at="2024-11-03T09:42:04 UTC" duration-ms="448" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:43:07 UTC" name="setUpClass" finished-at="2024-11-03T09:43:07 UTC" duration-ms="464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:42:04 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T09:42:12 UTC" duration-ms="8706" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:43:07 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T09:43:28 UTC" duration-ms="20337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:42:04 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T09:42:12 UTC" duration-ms="8735" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:43:07 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T09:43:28 UTC" duration-ms="20366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:42:12 UTC" name="tearDownClass" finished-at="2024-11-03T09:42:12 UTC" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:43:28 UTC" name="tearDownClass" finished-at="2024-11-03T09:43:28 UTC" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="createReport()[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:42:12 UTC" name="createReport" finished-at="2024-11-03T09:42:13 UTC" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:com.example.demo.runner.TestRunner@5542c4ed]" started-at="2024-11-03T09:43:28 UTC" name="createReport" finished-at="2024-11-03T09:43:28 UTC" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
