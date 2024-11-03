@@ -1,0 +1,8 @@
+com/example/demo/libraries/RemoteWebDriverLibrary.class
+com/example/demo/DemoApplication.class
+com/example/demo/libraries/DriverScopePostProcessor.class
+com/example/demo/libraries/DriverScope.class
+com/example/demo/models/TestUserDetails.class
+com/example/demo/libraries/DriverScopeConfig.class
+com/example/demo/models/UserDetails.class
+com/example/demo/libraries/WebDriverLibrary.class
