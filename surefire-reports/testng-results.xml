@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-03T07:24:55 UTC" name="Suite" finished-at="2024-11-03T07:25:18 UTC" duration-ms="22675">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@54d9d12d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-03T07:24:55 UTC" name="E2E Test of EAApp" finished-at="2024-11-03T07:25:18 UTC" duration-ms="22675">
+      <class name="com.example.demo.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.demo.runner.TestRunner@54d9d12d]" started-at="2024-11-03T07:24:55 UTC" name="setUpClass" finished-at="2024-11-03T07:24:56 UTC" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b02881e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@54d9d12d]" started-at="2024-11-03T07:24:56 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T07:25:18 UTC" duration-ms="22173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LoginFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.demo.runner.TestRunner@54d9d12d]" started-at="2024-11-03T07:24:56 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-03T07:25:18 UTC" duration-ms="22091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LoginFeature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.demo.runner.TestRunner@54d9d12d]" started-at="2024-11-03T07:25:18 UTC" name="tearDownClass" finished-at="2024-11-03T07:25:18 UTC" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.example.demo.runner.TestRunner -->
+    </test> <!-- E2E Test of EAApp -->
+  </suite> <!-- Suite -->
+</testng-results>
