@@ -18,8 +18,8 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 
-    @AfterSuite
+    /*@AfterSuite
     public void createReport(){
         CucumberReporting.main();
-    }
+    }*/
 }
