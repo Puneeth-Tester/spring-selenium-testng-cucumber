@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CucumberReporting {
 
-    public static void main(String[] args) {
+    public static void main() {
         // https://github.com/damianszczepanik/cucumber-reporting
         File reportOutputDirectory = new File("target");
         List<String> jsonFiles = new ArrayList<>();
